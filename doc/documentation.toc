@@ -1,0 +1,19 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Types of tests in Android}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}General information}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Unit Tests}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Instrumented Tests}{3}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Instrumented Unit Tests}{3}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Integration Tests}{3}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}UI Tests}{4}{subsection.1.3.3}
+\contentsline {chapter}{\numberline {2}Write Tests for sample application}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Sample App}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Possible Unit Tests}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Possible Integration Tests}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}Possible UI Tests}{7}{section.2.4}
+\contentsline {chapter}{\numberline {3}Frameworks}{8}{chapter.3}
+\contentsline {section}{\numberline {3.1}Espresso}{8}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Test Recorder}{8}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}iOS - Frameworks}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}Appium}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Mocking libraries}{10}{section.3.4}
