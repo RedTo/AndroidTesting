@@ -70,11 +70,11 @@
             android:inputType="textPassword" />
 
         <Button
-            android:id="@+id/saveButton"
+            android:id="@+id/loginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/buttonTextSize"
-            android:text="@string/save"
+            android:text="@string/login"
             android:onClick="onLoginClick"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginEnd="@dimen/activity_horizontal_margin"

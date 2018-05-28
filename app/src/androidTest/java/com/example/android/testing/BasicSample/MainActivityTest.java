@@ -38,14 +38,14 @@ public class MainActivityTest {
         passwordInput.check(matches(isDisplayed()));
 
         ViewInteraction button = onView(
-                allOf(withId(R.id.saveButton), withText(R.string.save), isDisplayed()));
+                allOf(withId(R.id.loginButton), withText(R.string.login), isDisplayed()));
         button.check(matches(isDisplayed()));
     }
 
     @Test
     public void tryToLoginWithoutAnyInput() {
         ViewInteraction button = onView(
-                allOf(withId(R.id.saveButton), withText(R.string.save), isDisplayed()));
+                allOf(withId(R.id.loginButton), withText(R.string.login), isDisplayed()));
         button.perform(click());
 
         ViewInteraction emailInput = onView(
@@ -61,7 +61,7 @@ public class MainActivityTest {
         emailInput.perform(replaceText("valid@email.com"), closeSoftKeyboard());
 
         ViewInteraction button = onView(
-                allOf(withId(R.id.saveButton), withText(R.string.save), isDisplayed()));
+                allOf(withId(R.id.loginButton), withText(R.string.login), isDisplayed()));
         button.perform(click());
 
         ViewInteraction passwordInput = onView(
@@ -76,7 +76,7 @@ public class MainActivityTest {
         passwordInput.perform(replaceText("EinPasswortDasMehrAls8ZeichenHat"), closeSoftKeyboard());
 
         ViewInteraction button = onView(
-                allOf(withId(R.id.saveButton), withText(R.string.save), isDisplayed()));
+                allOf(withId(R.id.loginButton), withText(R.string.login), isDisplayed()));
         button.perform(click());
 
         ViewInteraction emailInput = onView(
@@ -97,7 +97,7 @@ public class MainActivityTest {
         passwordInput.perform(replaceText("EinPasswortDasMehrAls8ZeichenHat"), closeSoftKeyboard());
 
         ViewInteraction button = onView(
-                allOf(withId(R.id.saveButton), withText(R.string.save), isDisplayed()));
+                allOf(withId(R.id.loginButton), withText(R.string.login), isDisplayed()));
         button.perform(click());
 
         ViewInteraction welcome = onView(allOf(withText(R.string.welcome_title), isDisplayed()));

@@ -18,7 +18,7 @@
     <string name="password_label">Your password:</string>
     <string name="email_label">Your Email address:</string>
     <string name="settings_title">My Login page</string>
-    <string name="save">Login</string>
+    <string name="login">Login</string>
     <string name="password_hint">Enter your password</string>
     <string name="email_hint">Enter your Email</string>
     <string name="email_error">Invalid email</string>
